@@ -65,13 +65,13 @@ if (isset($input['operation_type']) && isset($input['x']) && isset($input['y']) 
     }
 
     if ($sign == '+') {
-        $result = $num1 + $num2;
+        $result = intval(${$num1}) + intval(${$num2});
         $operation = "addition";
     } elseif ($sign == '-') {
-        $result = $num1 - $num2;
+        $result = intval(${$num1}) - intval(${$num2});
         $operation = "subtraction";
     } elseif ($sign == '*') {
-        $result = $num1 * $num2;
+        $result = intval(${$num1}) * intval(${$num2});
         $operation = "multiplication";
     } else {
         $result = "Your input was not valid";
