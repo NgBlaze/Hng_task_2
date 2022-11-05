@@ -78,7 +78,7 @@ if (isset($input['operation_type']) && isset($input['x']) && isset($input['y']) 
     }
 
     $output["slackUsername"] = "Goons";
-    $output["operation_type"] = $operation;
-    $output["result"] = $result;
+    ##$output["operation_type"] = $operation;
+    ##$output["result"] = $result;
 }
 echo json_encode($output);
