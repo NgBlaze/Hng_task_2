@@ -77,7 +77,7 @@ if (isset($input['operation_type']) && isset($input['x']) && isset($input['y']) 
         $result = "Your input was not valid";
     }
 
-    $output["slackUsername"] = "Goons";
+    $output["slackUsername"] = "Ngblaze";
     $output["operation_type"] = $operation;
     $output["result"] = $result;
 }
